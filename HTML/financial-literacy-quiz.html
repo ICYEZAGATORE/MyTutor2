@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Literacy Quiz</title>
+    <link rel="stylesheet" href="../Styles/quiz.css"> <!-- Link to CSS -->
+</head>
+<body>
+    <div class="quiz-container">
+        <header>
+            <h1>Financial Literacy Quiz</h1>
+            <p>Test your knowledge on Financial Literacy!</p>
+        </header>
+        
+        <form id="quizForm">
+            <div class="question">
+                <p>1. What is financial literacy?</p>
+                <label><input type="radio" name="q1" value="a"> The ability to understand and manage personal finances</label><br>
+                <label><input type="radio" name="q1" value="b"> The ability to make financial decisions for a company</label><br>
+                <label><input type="radio" name="q1" value="c"> Understanding stock market movements</label><br>
+            </div>
+
+            <div class="question">
+                <p>2. What is an example of an asset?</p>
+                <label><input type="radio" name="q2" value="a"> A mortgage loan</label><br>
+                <label><input type="radio" name="q2" value="b"> A car owned outright</label><br>
+                <label><input type="radio" name="q2" value="c"> A credit card debt</label><br>
+            </div>
+
+            <div class="question">
+                <p>3. What is budgeting?</p>
+                <label><input type="radio" name="q3" value="a"> Saving money for retirement</label><br>
+                <label><input type="radio" name="q3" value="b"> Planning how to spend your money</label><br>
+                <label><input type="radio" name="q3" value="c"> Investing in stocks</label><br>
+            </div>
+
+            <button type="submit" id="submitQuizBtn">Submit Quiz</button>
+        </form>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="../JS/financial-literacy-quiz.js"></script> <!-- Link to JS -->
+</body>
+</html>

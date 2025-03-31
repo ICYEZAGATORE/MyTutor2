@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="Styles/index.css" />
+
+    <script src="JS/index.js" defer></script>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav id="mainNav">
+      <div class="nav-content">
+        <div class="logo" id="logoText">MyTutor</div>
+        <div class="nav-links">
+          <a href="#home" id="homeLink">Home</a>
+          <a href="#features" id="featuresLink">Features</a>
+          <a href="#about" id="aboutLink">About</a>
+        </div>
+        <div class="nav-buttons">
+          <button id="loginBtn">Login</button>
+          <button id="signupBtn">Sign Up</button>
+        </div>
+      </div>
+      <!-- Add this somewhere in your header/navigation area -->
+<div class="user-section">
+  <span data-auth-status="authenticated">
+    Welcome, <span class="user-name">User</span>!
+    <button id="logoutBtn">Logout</button>
+  </span>
+</div>
+
+<!-- Add this script tag before the closing body tag -->
+<script src="JS/auth.js" defer></script>
+    </nav>
+    <!-- Hero Section -->
+    <section class="hero" id="heroSection">
+      <h1 id="mainHeading">Learn Anywhere, Anytime</h1>
+      <p id="heroText">
+        Access quality education resources and improve your skills with MyTutor
+      </p>
+      <button id="startLearningBtn">Start Learning Now</button>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="featuresSection">
+      <h2>Our Features</h2>
+      <div class="feature-grid">
+        <div class="feature-card" id="feature1">
+          <h3>Interactive Learning</h3>
+          <p>Engage with quizzes and interactive content</p>
+        </div>
+        <div class="feature-card" id="feature2">
+          <h3>Track Progress</h3>
+          <p>Monitor your learning journey</p>
+        </div>
+        <div class="feature-card" id="feature3">
+          <h3>Study Offline</h3>
+          <p>Learn without internet (Coming Soon)</p>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer id="mainFooter">
+      <p>Contact us at: <span id="contactEmail">info@mytutor.com</span></p>
+      <p id="copyright">© 2025 MyTutor. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

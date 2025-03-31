@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#mainNav {
+  background-color: #1a73e8;
+}
+.nav-links{
+  display: none;
+}
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.logo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+#homeLink,
+#featuresLink,
+#aboutLink {
+  text-decoration: none;
+  color: #fff;
+}
+#loginBtn,
+#signupBtn {
+  padding: 5px;
+  border-radius: 5px;
+  color: #1a73e8;
+  border: none;
+}
+#loginBtn {
+  background-color: #fff;
+}
+#signupBtn {
+  background-color: #FFE4B5;
+}
+.hero {
+  background-color: #f8f9fa;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+#mainHeading {
+  font-size: 80px;
+  color: #1a73e8;
+  padding: 5px;
+}
+#heroText {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+#startLearningBtn {
+  margin-top: 5px;
+  background-color: #1a73e8;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.features {
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.features h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.feature-card {
+  padding: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.feature-card h3 {
+  color: #1a73e8;
+  margin-bottom: 1rem;
+}
+footer {
+  background-color: #333;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 1rem;
+}
+
+#contactEmail {
+  color: #ffd700;
+}
