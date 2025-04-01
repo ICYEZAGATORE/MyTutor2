@@ -107,3 +107,36 @@ footer p {
 #contactEmail {
   color: #ffd700;
 }
+/* Logout button styling */
+#logoutBtn {
+  background-color: #e74c3c; /* Red background */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+  margin: 10px 0;
+}
+
+#logoutBtn:hover {
+  background-color: #c0392b; /* Darker red on hover */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#logoutBtn:active {
+  transform: translateY(1px); /* Slight push effect when clicked */
+}
+
+/* If you want to position it in a header or specific area */
+.user-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-name {
+  font-weight: bold;}
